@@ -96,6 +96,10 @@ body {
   color: white;
 }
 
+.lm {
+  margin-right: 20px;
+}
+
 /* About styles */
 .about {
   padding: 60px 0;
@@ -194,6 +198,11 @@ body {
 @media (max-width: 480px) {
   .hero h1 {
     font-size: 2rem;
+  }
+
+  .lm { 
+    margin-right: 0px;
+    margin-bottom: 20px;
   }
 
   .about p {
